@@ -1,0 +1,616 @@
+<?php
+    $sub = "Brisbane";
+    if(isset($_GET["s"])){
+        $sub = ucwords(htmlspecialchars($_GET["s"]));
+    }
+
+    $service = "";
+    if(isset($_GET["svc"])){
+        $service = ucwords(htmlspecialchars($_GET["svc"])).' ';
+    }
+
+    date_default_timezone_set('Australia/Brisbane');
+    $today = date('l'); 
+?>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Professional Online Caring Help With Anxiety, Depression, Weight & Eating Disorders</title>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap" rel="stylesheet">
+    <link href="css/fontello.css" type="text/css" rel="stylesheet">
+    <link href="css/D-DIN/stylesheet.css" type="text/css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" type="text/css" rel="stylesheet">
+    <link href="css/jquery.fancybox.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/sliding-form.js"></script>
+
+</head>
+
+<body>
+    <a href="tel:0431717600" class="nav-phone">
+        <i class="icon-phone-2"></i>
+        <div id="phone-link" class="nav-phone__link">0431 717 600</div>
+    </a>
+    <div id="header">
+        <div id="headerBar">
+            <div class="container">
+                <div class="row row-eq-height">
+                    <div class="col-md-3 col-sm-5">
+                        <img src="img/logo.webp" class="img-responsive">
+                    </div>
+                    <div class="col-md-9 col-sm-7 cta-ul-holder hidden-xs">
+                        <ul class="cta-ul">
+                            <li>
+                                <a href="#quote" class="cta-ul-item">
+                                    <i class="icon-shapes" aria-hidden="true"></i>
+                                    <span>Get A Free<br>Consultation</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:0431717600" class="cta-ul-item">
+                                    <i class="icon-technology-1" aria-hidden="true"></i>
+                                    <span>Call Us On<br>0431 717 600</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="navBar">
+            <div class="container">
+                <div class="row row-eq-height">
+                    <div class="col-md-9 hidden-xs">
+                        <ul class="nav-ul">
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#services">Why Online Counselling</a></li>
+                            <li><a href="#whyChooseUs">Why Us</a></li>
+                            <li><a href="#aboutUs">About Me</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#quote">Get Your Free Consultation!</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-md-offset-0 todayOffer col-sm-6 col-sm-offset-3 col-xs-9">
+                        <span class="offerCta">Get Your FREE</span>
+                        <span class="offerValue">20 Min. Therapy Planning Call</span>
+                        <!-- <span class="offerCta"><b><u>Chat With Us Personally Today!</u></b></span> -->
+                    </div>
+                    <div class="col-xs-3 visible-xs">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="trx_addons_icon-menu"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="navContainer visible-xs">
+                <ul class="mobile-nav-ul navbar-collapse collapse" id="mainNav">
+                    <li><a href="#header">Home</a></li>a
+                    <li><a href="#services">Why Online Counselling</a></li>
+                    <li><a href="#whyChooseUs">Why Me</a></li>
+                    <li><a href="#aboutUs">About Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#quote">Get Your Free Consultation!</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="headerContent">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row row-eq-height">
+                    <div class="col-md-7 center-content-inCol">
+                        <div class="header-cotnent">
+                            <h1>Professional, Honest & Caring Spiritual Counselling To Break Free Of Limiting Behaviour
+                                <span>Get the tools to move forward in the way you want</span></h1>
+                            <p>Spiritual counselling is a counselling method of assisting people who are having difficulty grappling with issues in their lives. It gives a framework to this in which they are able to understand the origins of their actions and subsequent reactions. It assists in helping people align their values and re-evaluate their feelings & expectations. Ultimately, offering a path through life that provides more confidence, self-assurance, and a way out of their problems and issues.</p>
+                            <p>Spiritual counselling is about helping people get to a place in their life where they are able to achieve increased feelings of love, happiness & joy, and to be able to have improved relationships with others.</p>
+                            <a href="tel:0431717600" class="btn">Call Tobey 0431 717 600</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-offset-1">
+                        <div class="pop-body">
+                            <h4 class="title small">REQUEST CONSULTATION <span>Get a response in minutes</span> <span>We look forward to assisting!</span></h4>
+                            <form action="#" method="POST" class="form-widget" novalidate="novalidate" id="contact_form">
+                                <div class="field-wrp">
+                                    <div class="form-group">
+                                        <label class="form-label" for="name">Your Name <span>*</span></label>
+                                        <input class="form-control" data-label="Name" required="" data-msg="Please enter your name." type="text" name="name" id="name" placeholder="Enter your name" aria-required="true">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="email">Your Email <span>*</span></label>
+                                        <input class="form-control" data-label="Email" required="" data-msg="Please enter your email." type="email" name="email" id="email" placeholder="Enter your email" aria-required="true">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="form-label" for="phone">Your Phone Number <span>*</span></label>
+                                        <input class="form-control" data-label="Phone" required="" data-msg="Please enter your phone number." type="text" name="phone" id="phone" placeholder="Enter your phone number" aria-required="true">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="message">Additional Details <span class="muted">(Optional)</span></label>
+                                        <textarea class="form-control" data-label="Message" name="message" id="message" placeholder="Ener Any Additional Details" cols="30" rows="10"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-sm btn-submit">Get My Consultation<span>+<b><u>FREE</u></b> 20 Min. Therapy Planning Call</span></button>
+                                    <span class="cta-sub">*Your details are kept confidential</span>
+                                </div>
+                            </form>
+                            <div class="msg-block"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="whyUs">
+        <div class="container">
+            <div class="row row-eq-height">
+                <div class="col-md-7 col-sm-12">
+                    <div class="row ctaBlock invertBox row-eq-height">
+                        <div class="col-lg-12 col-md-12 center-content-inCol">
+                            <h2>COVID-19 UPDATE</h2>
+                            <p>As we pass through these uncertain times we contribute to the 'social distancing' policies by <b>offering <u>online sessions to our clients</u>.</b><span class="hidden-xs hidden-sm"> Now when I am helping people <b><u>fight their anxiety, depression, weight &amp; eating disorders online</u></b> I often forget that they could be thousands of kilometres away.</span> I have helped people through Skype or Zoom therapy sessions from as far away from remote parts of Australia as <b>efficiency &amp; effectively just like a regular face-to-face session</b>.</p>
+                            
+                            <a href="#testimonials"><b>Check what my clients have to say about my techniques</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12 ctaBlock">
+                    <i class="icon-phone-2"></i>
+                    <p>Are You Having Difficulty In Your Life?
+                        Spiritual Counselling Will Help You Get Through It.</p>
+                    <h2 class="bottomCTA">
+                        <span>Call Tobey Now:</span>
+                        <a href="tel:0431717600">0431 717 600</a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="what-you-get">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h2>Permanently Resolve<br> Your Issue & Be In Control</h2>
+                </div>
+            </div>
+            <div class="row row-eq-height">
+                <div class="col-md-7">
+                    <p>Spiritual Counselling is non-secular. It is direct, honest & caring. By establishing the negative behavioral patterns to their point of origin, we are able to give the issues in your life greater clarity. These stumbling blocks once understood, can be more easily tackled. By assisting you in aligning your values, we can offer a path of choice that enables the you to break free of limiting behavior.</p>
+                    <ul class="intro-list">
+                        <li>Gain insight into your challenges</li>
+                        <li>Manage painful and unhelpful thoughts and feelings</li>
+                        <li>Escape the cycle of harmful habits</li>
+                        <li>Build more rewarding relationships</li>
+                        <li>Direct your actions toward effective behaviors</li>
+                        <li>Find more fulfillment in work and in life generally</li>
+                        <li>Move beyond your fears, defenses, and insecurities</li>
+                        <li>Reduce stress</li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <div class="bg-img-1"> <img src="./img/smokingfree-2.jpg" class="img-responsive" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="whyChooseUs">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-8">
+                    <h2>Why Choose <span>Origins Counselling And Healing</span>?</h2>
+                    <p>We are dedicated to helping people struggling with issues in their life, and we get them through it with Spiritual Counselling and Healing.</p>
+<p>This method of spiritual counselling is non-sectarian (non-religious), and is for everyone; children, adolescents, young people, adults, couples, families. It can be highly effective with the following emotional concerns: stress, anxiety, depression, loss and grief, anger, apathy/indifference, fatigue, confusion, need for control, lack of self-understanding, poor self-image/low self-esteem, childhood trauma, sexual assault & substances issues.</p>
+                    <ul class="intro-list">
+                        <li>Gain insight into your challenges</li>
+                        <li>Manage painful and unhelpful thoughts and feelings</li>
+                        <li>Escape the cycle of harmful habits</li>
+                        <li>Build more rewarding relationships</li>
+                        <li>Direct your actions toward effective behaviors</li>
+                        <li>Find more fulfillment in work and in life generally</li>
+                        <li>Move beyond your fears, defenses, and insecurities</li>
+                        <li>Reduce stress</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="section-headline">
+                        <h2>Our Services</h2>
+                        <p>As a trained Spiritual counsellor, my method of counselling is through the analysis of behaviour and its effect on the individual. By tracing the behaviour displayed by the client to its origins, I am able to work on the healing process from this initial cause to understanding how this has affected their life. A framework of values are used in assisting clients with finding clarity, truth and peace. Ultimately moving toward finding more love, joy and purpose in life.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <div class="flex-block">
+                            <img src="img/services/emotional.jpg" class="img-responsive">
+                            <div>
+                                <h5>Emotional Healing</h5>
+                                <a href="#quote" class="link">Request A Quote</a>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <div class="flex-block">
+                            <img src="img/services/hahnemann.jpg" class="img-responsive">
+                            <div>
+                                <h5>Hahnemann Healing</h5>
+                                <a href="#quote" class="link">Request A Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <div class="flex-block">
+                              <img src="img/services/spiritual.jpg" class="img-responsive">
+                              <div>
+                                <h5>Spiritual Counselling</h5>
+                                <a href="#quote" class="link">Request A Quote</a> 
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <div class="flex-block">
+                            <img src="img/services/family.jpg" class="img-responsive">
+                            <div>
+                                <h5>Family Counselling</h5>
+                                <a href="#quote" class="link">Request A Quote</a>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <div class="flex-block">
+                            <img src="img/services/marriage.jpg" class="img-responsive">
+                            <div>
+                                <h5>Marriage Counselling</h5>
+                                <a href="#quote" class="link">Request A Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <div class="flex-block">
+                              <img src="img/services/depression.jpg" class="img-responsive">
+                              <div>
+                                <h5>Depression Counselling</h5>
+                                <a href="#quote" class="link">Request A Quote</a> 
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <div class="flex-block">
+                            <img src="img/services/relationship.jpg" class="img-responsive">
+                            <div>
+                                <h5>Relationship Counselling</h5>
+                                <a href="#quote" class="link">Request A Quote</a>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <div class="flex-block">
+                            <img src="img/services/trauma.jpg" class="img-responsive">
+                            <div>
+                                <h5>Trauma Counselling</h5>
+                                <a href="#quote" class="link">Request A Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <div class="flex-block">
+                              <img src="img/services/anxiety.jpg" class="img-responsive">
+                              <div>
+                                <h5>Anxiety Counselling</h5>
+                                <a href="#quote" class="link">Request A Quote</a> 
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <div class="flex-block">
+                            <img src="img/services/eating-disorder.jpg" class="img-responsive">
+                            <div>
+                                <h5>Eating Disorder Counselling</h5>
+                                <a href="#quote" class="link">Request A Quote</a>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <div class="flex-block">
+                            <img src="img/services/adolescent.jpg" class="img-responsive">
+                            <div>
+                                <h5>Adolescent Counselling</h5>
+                                <a href="#quote" class="link">Request A Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="service-block">
+                        <div class="flex-block">
+                              <img src="img/services/teen.jpg" class="img-responsive">
+                              <div>
+                                <h5>Teen Counselling</h5>
+                                <a href="#quote" class="link">Request A Quote</a> 
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="cta-full section">
+        <div class="container">
+            <div class="row row-eq-height">
+                <div class="col-md-6 center-content-inCol">
+                    <h1><a href="tel:0431717600"><i class="icon-phone-2"></i> 0431 717 600</a></h1>
+                </div>
+                <div class="col-md-6 center-content-inCol">
+                    <p>Connect with me (Tobey) today for a specifically tailored one-on-one treatment plan. No matter what you're going through, Spiritual Counselling and Healing will guide you in finding clarity around your emotions and traumas, confidence in dealing with life's problems and relationships, and assist in providing a clearer path to your future.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="aboutUs">
+        <div class="container">
+            <div class="row row-eq-height">
+                <div class="col-lg-4 col-lg-offset-1 col-md-5 col-sm-5 center-content-inCol">
+                    <img src="img/personal-photo.webp" class="img-responsive pull-right">
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-7 center-content-inCol">
+                    <h2>About Me</h2>
+                    <p>My name is <b class="highlight"><u><i>Tobey</i></u></b>. I have always been passionate about helping people, and spiritual counselling & healing have become my tools for this, which I have found to be very powerful.</p>
+                    <p>I have a diploma in Spiritual Counselling & I am a <b class="highlight">qualified Hahnemann healer & Concomitant practitioner, </b>and over the last few years spent time regularly working as an IVP in the Youth Justice System. </p>
+                    <p>Whilst being gentle and supportive it can be direct and confronting, but always a sincere and honest approach to helping people. My aim is not for clients to stay in counselling, but to have learned, understood & moved forward in their life. It is about finding growth through an individual's life experience, and to find inner peace. <br></p>
+                                            
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-headline">
+                        <h2>What My Clients Are Saying</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="review-block">
+                        <img src="img/google-5-star.png" class="img-responsive rating">
+                        <p>Tobey has been helping me work through different aspects in my life. Removing blockages and helping me with clarity. The sessions are held in a safe and calming environment which when finished leaves you with a new sense of balance.
+                            Each session is different and brings up different emotions. Tobey has certainly helped me over the last few months. I would recommend to anyone who hasn’t tried this form of therapy.
+                            It is so worth it.</p>
+                        <img src="img/google-reviews-icon.jpg" class="img-responsive">
+                        <h5 class="author">Sarahjane Curtis</h5>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="review-block">
+                        <img src="img/google-5-star.png" class="img-responsive rating">
+                        <p>For the last couple of months I have had Hahnemann healings with Tobey , not realising how much I benefited from them.
+                            For years I have suppressed my feelings of grief from my past and manifested my self belief at times. Not only has it given my clarity around my life but has given me the coping abilities with my grief. Looking forward to my next session.</p>
+                        <img src="img/google-reviews-icon.jpg" class="img-responsive">
+                        <h5 class="author">Talia Brasier</h5>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="quote" class="up-level">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 mb-25 covid-warning">
+                    
+                </div>
+            </div>
+            <div class="row row-eq-height">
+                <div class="col-lg-5 col-lg-offset-1 col-md-5">
+                    <div class="request-quote-form">
+                        <h5>Request Your Consultation</h5>
+                        <div class="form-container">
+                            <form action="#" method="POST" class="form-widget" novalidate="novalidate" id="contact_form_1">
+                                <div class="field-wrp">
+                                    <div class="form-group">
+                                        <label class="form-label" for="name1">Your Name <span>*</span></label>
+                                        <input class="form-control" data-label="Name" required="" data-msg="Please enter your name." type="text" name="name" id="name1" placeholder="Enter your name" aria-required="true">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="email1">Your Email <span>*</span></label>
+                                        <input class="form-control" data-label="Email" required="" data-msg="Please enter your email address." type="email" name="email" id="email1" placeholder="Enter your email" aria-required="true">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="phone1">Your Phone Number <span>*</span></label>
+                                        <input class="form-control" data-label="Phone" required="" data-msg="Please enter your phone number." type="tel" name="phone" id="phone1" placeholder="Enter your phone number" aria-required="true">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="message1">Additional Details <span class="muted">(Optional)</span></label>
+                                        <textarea class="form-control" data-label="Message" name="message" id="message1" placeholder="Enter Any Additional Details" cols="30" rows="10"></textarea>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-sm btn-submit">Get My Consultation<span>+<b><u>FREE</u></b> 20 Min. Therapy Planning Call</span></button>
+                                </div>
+                            </form>
+                            <p class="form-privacy">*Your details are kept confidential</p>
+                        </div>
+                    </div>
+                    <div class="certified">
+                        <img src="./img/certified.webp" class="" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-7 center-content-inCol">
+                    <h4>Service You Can Rely On</h4>
+                    <p>Often people don’t understand why they are unable to move forward or break negative patterns. This can create feelings of anxiety, depression, anger, confusion, apathy & disappointment. These are suppressed or subconscious emotions caused by past negative experiences. They have not yet grappled with understanding their feelings or the actions of others and properly expressed themselves in these difficult situations. </p>
+                    <div class="value-prop">
+                        <img src="img/start-finish.png" class="img-responsive">
+                        <div class="prop-content">
+                            <h6>Personalised Service</h6>
+                            <p>We will work with you to ensure our services suit your specific needs. We commit to providing a unique experience for every client, as every client's needs and issues are individual to them./p>
+                        </div>
+                    </div>
+                    <div class="value-prop">
+                        <img src="img/protect-home.png" class="img-responsive">
+                        <div class="prop-content">
+                            <h6>Driving Truth</h6>
+                            <p>Supportive, honest & committed to positive change, we will drive you toward the truth and understanding of your issues, and assist you in gaining more clarity around the problem and it’s effect in your life.</p>
+                        </div>
+                    </div>
+                    <div class="value-prop">
+                        <img src="img/expert-team.png" class="img-responsive">
+                        <div class="prop-content">
+                            <h6>Affordable Pricing</h6>
+                            <p>We are passionate about helping people. Our focus is to always drive positive change in the lives of all people who seek help for their issues. We believe counselling & healing should accessible to every one. This is why we offer affordably priced services to all our clients.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="up-level">
+        <div class="footer-wrapper">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-6">
+                        <img src="img/logo.webp" class="img-responsive">
+                    </div>
+                    <div class="col-md-9 col-sm-6 center-content-inCol">
+                        <h1>
+                            <a href="tel:0431717600"><i class="icon-phone-2"></i> 0431 717 600</a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="copyright" class="up-level">
+        <div class="copyright-wrapper">
+            <div class="container">
+                <div class="row">
+                    <p>&copy;<?php echo date('Y'); ?> All Rights Reserved - Origins Counselling And Healing</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <a href="#headerBar" id="back-to-top" class="to-top"> To Top <i class="fa fa-arrow-up"></i></a>
+    
+    <script src="js/jquery.fancybox.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function(){
+            
+            $('body').sidePanelForm({
+                'form_id': '#contact_form_1'
+            });
+            
+            $('#contact_form_1').validate({
+                errorPlacement: function (error, element)
+                {
+                    element.after(error);
+                }
+            });
+            $('#contact_form').validate({
+                errorPlacement: function (error, element)
+                {
+                    element.after(error);
+                }
+            });
+            // function update() {
+            //   $('span.clock-display').html(moment().format('h:mm:ss A'));
+            // }
+
+            // setInterval(update, 1000);
+            
+            $('.mobile-nav-ul>li>a').on('click', function(){
+                $('.navbar-collapse').collapse('hide');
+            });
+            
+            function goToByScroll(id){
+                  // Remove "link" from the ID
+                id = id.replace("link", "");
+                  // Scroll
+                $('html,body').animate({
+                    scrollTop: $(id).offset().top},
+                    'slow');
+            }
+            
+            $('a:not(.request_consultation)').click(function(e) {
+                var link = $(this).attr('href');
+
+                if (link.indexOf('#') > -1) {
+                    // Prevent a page reload when a link is pressed
+                    e.preventDefault(); 
+                      // Call the scroll function
+                    goToByScroll(link);   
+                }
+            });
+            
+            if ($('#back-to-top').length) {
+                var scrollTrigger = 100, // px
+                    backToTop = function () {
+                        var scrollTop = $(window).scrollTop();
+                        if (scrollTop > scrollTrigger) {
+                            $('#back-to-top').addClass('show');
+                        } else {
+                            $('#back-to-top').removeClass('show');
+                        }
+                    };
+                backToTop();
+                $(window).on('scroll', function () {
+                    backToTop();
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
